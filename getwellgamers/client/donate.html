@@ -1,0 +1,142 @@
+<template name="donate">
+    <div id="site_header_wrapper">
+        <div class="header" id="site_header">
+            <img class="logo" src="headerlogo.png" alt="logo" align="middle"
+                 style="max-width: 440px;max-height: 155px;padding: 0.5em 0em 0.5em 0em;display: block;margin-left: auto;margin-right: auto;">
+        </div>
+
+
+        <div id="menu" style="text-align: center">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="news.html">Latest News</a></li>
+                <li id="current_page_item" class="folder"><a href="#">How can I help?</a></li>
+                <ul class="dropdown-content">
+                    <li><a href="donate.html">Donate games and consoles</a></li>
+                    <li><a href="donate-your-euros.html">Donate &#8364;</a></li>
+                    <li><a href="volunteer.html">Volunteer</a></li>
+                </ul>
+                <li><a href="network.html">Hospital Network</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Get in touch</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <!-- end #menu -->
+
+
+    <div class="paratext">
+        <div id="about">
+            <h1>Donate your video games and consoles</h1>
+            <img class="about_img" src="ske.jpg" align="right">
+            <p>If you have video games, video game consoles or accessories and want to cheer up sick children across the
+                country please fill out the form below.</p>
+            <p>Hospitals have little to no funding for games and consoles and as such, many wards simply do not have
+                enough electronic entertainment for their patients.</p>
+            <p>If you don&apos;t have any games or consoles to donate, but would still like to support us, you can help
+                out in <a href="volunteer.html">other ways</a>.</p>
+        </div>
+    </div>
+
+    <form name="contactform" method="post" action="send_form_email.php">
+
+        <table width="750px">
+
+            <tbody>
+            <tr>
+
+                <td valign="top">
+
+                    <input type="text" id="formy" name="name" placeholder="Name">
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td valign="top">
+
+                    <input type="text" id="formy" name="email" placeholder="Email address">
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td valign="top">
+
+                    <input type="text" id="formy" name="telephone" placeholder="Phone number">
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td valign="top">
+
+                    <input type="text" id="formy" name="address" placeholder="Address">
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td valign="top">
+
+                    <textarea name="comments" id="formy" maxlength="1000" cols="52" rows="6"
+                              placeholder="What would you like to donate?"></textarea>
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td valign="top">
+
+                    <input type="text" id="formy" name="how" placeholder="How did you hear about us?">
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td colspan="2" style="text-align:left">
+
+                    <input type="submit" class="submit" value="Submit">
+
+                </td>
+
+            </tr>
+
+            </tbody>
+        </table>
+
+    </form>
+    <br>
+    <div class="footer" id="footer">
+        <br>
+        <p id="footertext">Get-Well Gamers.fr - donating video games and consoles to hospitals</p>
+        <div id="social-media-menu">
+            <div class="container" id="social-media">
+                <div class="twitter-hover social-slide"></div>
+                <div class="facebook-hover social-slide"></div>
+                <div class="linkedin-hover social-slide"></div>
+                <div class="instagram-hover social-slide"></div>
+            </div>
+        </div>
+        <p id="footertext">123 French Street &#43; hello@getwellgamers.fr &#43; 012 3456 7890</p>
+
+    </div>
+</template>
+
+
+<!-- <div id="mid-footer"><a href="benefits.html">Find out how >></a></div> -->

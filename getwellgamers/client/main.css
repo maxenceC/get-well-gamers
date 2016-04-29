@@ -1,0 +1,469 @@
+/* CSS declarations go here */
+<!-- HTML CSS -->
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body {
+    margin: 0;
+}
+
+
+/*    ABOUT   */
+
+#about {
+    font-family: 'Maven Pro',arial,sans-serif;
+    margin-left: 20%;
+    margin-right: 10%;
+}
+
+
+img.about_img {
+    width: 100%;
+    max-width:500px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+h1 {
+    color: #0566cc;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 18px;
+    background-color: #0566cc;
+    border-radius: 30px 30px 30px 30px;
+    color: white;
+    font-family: 'Maven Pro',arial,sans-serif;
+    font-size: 26px;
+    text-align: left;
+    width: 60%;
+    font-weight: normal;
+    max-width: 750px;
+}
+
+#about p {
+    font-family: 'Gentium Basic',Georgia,serif;
+    width: 60%;
+}
+
+/* HEADER CSS */
+
+#img.logo {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#site_header_wrapper {
+    width: 100%;
+    background-color: #f9ed15;
+}
+
+
+/* SITE NAVIGATION */
+
+
+ul {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f9ed15;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+li {
+    float: left;
+    display: inline-block;
+}
+
+li a {
+    display: block;
+    color: #0566cc;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Maven Pro',arial,sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+
+li a:hover {
+    background-color: #0566cc;
+    color: white;
+}
+
+li.current_page_item a {
+    background-color: #0566cc;
+    color: white;
+}
+
+#current_page_item a {
+    background-color: #0566cc;
+    color: white;
+}
+
+/* SOCIAL MEDIA ICON */
+
+.social-slide {
+    background-image: url('images/twitter-hover.png');
+    height: 48px;
+    width: 48px;
+    margin: 10px;
+    float: left;
+    -webkit-transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+    cursor: pointer;
+}
+.social-slide:hover {
+    background-position: 0px -48px;
+    box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.8);
+}
+
+div#social-media {
+    display: inline-block;
+    height: 66px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.facebook-hover.social-slide {
+    background-image: url('images/facebook-hover.png');
+}
+
+.linkedin-hover.social-slide {
+    background-image: url('images/linkedin-hover.png');
+}
+
+.instagram-hover.social-slide {
+    background-image: url('images/instagram-hover.png');
+}
+
+#social-media-menu {
+    width: auto;
+    text-align: center;
+}
+
+#home #banners #banner_nav {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 144px;
+    padding: 0 16px;
+    list-style-type: none;
+}
+
+.nav {
+    position: absolute;
+    float: right;
+    margin-left: 800px;
+    margin-top: 20px;
+}
+
+
+
+
+/*    BANNERS      */
+
+
+img.banner_img {
+    width: 100%;
+    max-width:500px;
+    border-radius: 0px 0px 0px 30px;
+}
+
+
+#main_banner {
+    overflow:hidden;
+    margin: 0 auto;
+}
+
+#mid-box {
+    max-height: 340px;
+    background-color: #0566cc;
+    color: white;
+    border-radius: 0px 30px 0px 0px;
+}
+
+#mid-title {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 40px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 30px;
+    font-family: 'Maven Pro',arial,sans-serif;
+}
+
+
+#mid-body {
+    font-size: 25px;
+    padding-top: 25px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 40px;
+    font-family: 'Maven Pro',arial,sans-serif;
+    text-align: center;
+}
+
+#mid-footer {
+    font-size: 22px;
+    font-family: 'Maven Pro',arial,sans-serif;
+    text-align: center;
+    background-color: #f9ed15;
+    color: #0566cc;
+    padding-bottom: 10px;
+}
+
+
+#mid-footer a {
+    display: block;
+    -webkit-transition: all ease 0.8s;
+    -moz-transition: all ease 0.8s;
+    transition: all ease 0.8s;
+}
+
+#mid-footer li {
+    text-align: center;
+    background-color: #f9ed15;
+    width: 100%;
+    padding: 0;
+    -webkit-transition: all ease 0.8s;
+    -moz-transition: all ease 0.8s;
+    transition: all ease 0.8s;
+}
+
+
+/*   CONTENT   */
+
+.content {
+    margin: 0 auto;
+}
+
+#content1 {
+    text-align: center;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+#c1h {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #0566cc;
+    border-radius: 10px 10px 10px 10px;
+    color: white;
+    font-family: 'Maven Pro',arial,sans-serif;
+    font-size: 26px;
+    width: 80%;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+
+#c1c {
+    font-family: 'Gentium Basic',Georgia,serif;
+    font-size: 18px;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#content2 {
+    text-align: center;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+#c2h {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #0566cc;
+    border-radius: 30px 30px 30px 30px;
+    color: white;
+    font-family: 'Maven Pro',arial,sans-serif;
+    font-size: 26px;
+}
+
+#c2c {
+    text-align: left;
+    font-family: 'Gentium Basic',Georgia,serif;
+    font-size: 18px;
+}
+
+#content3 {
+    text-align: center;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+#c3h {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #0566cc;
+    border-radius: 30px 30px 30px 30px;
+    color: white;
+    font-family: 'Maven Pro',arial,sans-serif;
+    font-size: 26px;
+}
+
+
+#c3c {
+    text-align: left;
+    font-family: 'Gentium Basic',Georgia,serif;
+    font-size: 18px;
+}
+
+/*   BUTTONS    */
+
+.button {
+    border-top: 1px solid #96d1f8;
+    background: #65a9d7;
+    background: -webkit-gradient(linear, left top, left bottom, from(#878787), to(#878787));
+    background: -webkit-linear-gradient(top, #878787, #878787);
+    background: -moz-linear-gradient(top, #878787, #878787);
+    background: -ms-linear-gradient(top, #878787, #878787);
+    background: -o-linear-gradient(top, #878787, #878787);
+    padding: 11.5px 23px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    box-shadow: rgba(0,0,0,1) 0 1px 0;
+    text-shadow: rgba(0,0,0,.4) 0 1px 0;
+    color: white;
+    font-size: 14px;
+    font-family: Georgia, serif;
+    text-decoration: none;
+    vertical-align: middle;
+    text-align: center;
+    margin-top: 4px;
+    font-family: 'Gentium Basic',Georgia,serif;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.button:hover {
+    border-top-color: #0566cc;
+    background: #0566cc;
+    color: #f9ed15;
+}
+
+.button:active {
+    border-top-color: #1b435e;
+    background: #1b435e;
+}
+
+/*   FOOTER    */
+
+.footer {
+    background-color: #f9ed15;
+    margin: 0;
+    padding-bottom: 9px;
+    text-align: center;
+    font-family: 'Gentium Basic',Georgia,serif;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    clear: both;
+    z-index: 10;
+}
+
+
+#footer.footer {
+    position: static;
+}
+
+#footer.twoter {
+    position: absolute;
+}
+
+
+#footertext {
+    color: #0566cc;
+    margin: 0;
+    font-size: 18px;
+}
+
+/*    DROP DOWN MENU    */
+
+
+ul.dropdown-content {
+    display: none;
+    position: absolute;
+}
+
+li.folder:hover .dropdown-content {
+    display: block;
+    width: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+
+ul.dropdown-content li {
+    display: block;
+    float: none;
+    background-color: #fcf89c;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/*     DONATE FORM     */
+
+form {
+    margin-bottom: 1em;
+    display: block;
+    margin-top: 0em;
+    margin-left: 20%;
+}
+
+#formy {
+    width: 100%;
+    max-width: 750px;
+    padding: 10px;
+    border: none;
+    transition: border 0.3s;
+    border-bottom: solid 2px #969696;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    font-family: 'Gentium Basic',Georgia,serif;
+    font-size: 20px;
+}
+
+.submit {
+    background: #0566cc;
+    border: solid 1px #0566cc;
+    background-position: 0px -401px;
+    font-family: 'Maven Pro',arial,sans-serif;
+    color: white;
+    height: 50px;
+    width: 100%;
+    margin-top: 5px;
+    text-transform: uppercase;
+    font-size: 24px;
+}
